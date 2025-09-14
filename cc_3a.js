@@ -1,4 +1,4 @@
-// Coding Challenge 00
+// Coding Challenge 03a
 
 let customers = [{
     name: "Jane",
@@ -14,7 +14,9 @@ let customers = [{
     name: "Zoe",
     email: "zoey101@gmail.com",
     purchases: 101,
+},
+{
+    name: "Carson",
+    email: "carsonshome172@gmail.com",
+    purchases: 2,
 }]
-
-newCustomer = {name: "Lila", email: "lilamoss@gmail.com", purchases: 20}
-customers.push(newCustomer)
