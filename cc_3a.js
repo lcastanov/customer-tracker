@@ -3,36 +3,35 @@
 let customers = [{
     name: "Jane",
     email: "jane.pearson@gmail.com",
-    purchases: "extension cord, water bottle, backpack",
+    purchases: ["extension cord", "water bottle", "backpack"],
 },
 {
     name: "Horace",
     email: "itshoracep@gmail.com",
-    purchases: "USB, case",
+    purchases: ["USB", "case"],
 },
 {
-    name: "Zoe",
+    name: "Zoey",
     email: "zoey101@gmail.com",
-    purchases: "notebook, pencil, eraser, markers",
+    purchases: ["notebook", "pencil", "eraser", "markers"],
 },
 {
     name: "Carson",
     email: "carsonshome172@gmail.com",
-    purchases: "brush, gel",
+    purchases: ["brush", "gel"],
 }]
 
-console.log(customers);
 
 // Added new customer
 
-newCustomer = {name: "Lila", email: "lilamoss@gmail.com", purchases: 20}
+newCustomer = {name: "Lila", email: "lilamoss@gmail.com", purchases: ["heels", "nail polish", "lipstick"]}
 customers.push(newCustomer)
 
-console.log(customers);
 
 // Removed first customer
 
 customers.shift();
+
 
 // Updates Zoey's email
 
@@ -40,4 +39,10 @@ customers[1].email = ("zoey101@pca.edu")
 
 console.log(customers);
 
-customers.push()
+
+// Added new purchase for Zoey
+
+customers[1].purchases.push("gel")
+
+
+// customers.forEach(obj =>console.log(`Name: ${obj.name} |`, `Email: ${obj.email} |`, `Total # of Purchases: ${obj.purchases}`));
