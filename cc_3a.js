@@ -44,5 +44,6 @@ console.log(customers);
 
 customers[1].purchases.push("gel")
 
+// Looping and Logging
 
-// customers.forEach(obj =>console.log(`Name: ${obj.name} |`, `Email: ${obj.email} |`, `Total # of Purchases: ${obj.purchases}`));
+customers.forEach(obj =>console.log(`Name: ${obj.name} |`, `Email: ${obj.email} |`, `Total # of Purchases: ${obj.purchases.length}`));
