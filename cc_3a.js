@@ -20,3 +20,16 @@ let customers = [{
     email: "carsonshome172@gmail.com",
     purchases: 2,
 }]
+
+console.log(customers);
+
+newCustomer = {name: "Lila", email: "lilamoss@gmail.com", purchases: 20}
+customers.push(newCustomer)
+
+console.log(customers);
+
+customers.shift();
+
+customers[1].email = ("zoey101@pca.edu")
+
+console.log(customers);
